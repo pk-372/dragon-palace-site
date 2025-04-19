@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Dragon Palace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Dragon Palace Logo" id="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="order.html">Order Online</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>About Dragon Palace</h1>
+        <p>Dragon Palace offers a variety of Chinese food, from traditional dishes to modern fusion meals, all crafted with fresh ingredients and authentic flavors.</p>
+        <img src="images/dish2.jpg" alt="Chinese Dish" class="about-image">
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dragon Palace. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Online - Dragon Palace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Dragon Palace Logo" id="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="order.html">Order Online</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Order Your Favorite Dishes</h1>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="dish">Choose Your Dish:</label><br>
+            <select id="dish" name="dish">
+                <option value="sweet_sour_chicken">Sweet and Sour Chicken</option>
+                <option value="kung_pao_chicken">Kung Pao Chicken</option>
+                <option value="fried_rice">Fried Rice</option>
+                <option value="chow_mein">Chow Mein</option>
+            </select><br><br>
+
+            <label for="quantity">Quantity:</label><br>
+            <input type="number" id="quantity" name="quantity" value="1" min="1"><br><br>
+
+            <label for="address">Delivery Address:</label><br>
+            <input type="text" id="address" name="address"><br><br>
+
+            <input type="submit" value="Place Order">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dragon Palace. All rights reserved.</p>
+    </footer>
+</body>
+</html>
